@@ -6,7 +6,7 @@
 
   <groupId>io.mateu</groupId>
   <artifactId>reflection</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.20</version>
 
   <name>mateu-reflection</name>
 
@@ -33,7 +33,7 @@
     <dependency>
       <groupId>io.mateu</groupId>
       <artifactId>util</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.20</version>
     </dependency>
 
     <dependency>
@@ -54,8 +54,8 @@
 
     <dependency>
       <groupId>io.mateu</groupId>
-      <artifactId>mdd-eclipselink</artifactId>
-      <version>0.0.14</version>
+      <artifactId>eclipselink</artifactId>
+      <version>1.0.20</version>
       <scope>test</scope>
     </dependency>
 
@@ -97,7 +97,7 @@
     <dependency>
       <groupId>io.mateu</groupId>
       <artifactId>showcase-model</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.20</version>
       <scope>test</scope>
     </dependency>
 
@@ -132,18 +132,5 @@
     </repository>
   </distributionManagement>
 
-  <repositories>
-    <repository>
-      <id>mateu-central</id>
-      <url>http://nexus.mateu.io/repository/mateu-central</url>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>mateu-central</id>
-      <url>http://nexus.mateu.io/repository/mateu-central</url>
-    </pluginRepository>
-  </pluginRepositories>
 
 </project>
